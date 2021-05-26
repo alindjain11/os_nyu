@@ -1,0 +1,10 @@
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)
+
+Its INCOMPLETE
+I was only able to pass 26 cases out of 34
+
+
+LOG:
+RES 26 of 34:  1 1 0 1 0 0 0 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0
+
+
