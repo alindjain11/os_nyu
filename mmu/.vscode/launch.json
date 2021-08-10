@@ -1,0 +1,29 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(gdb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/sched",            // a.out is target program
+      "args": ["test1/in1", "test1/rfile"], // command line arguments for debugging (scheduler as example)
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,                         // set to 'true' if you want external console when debugging
+      "MIMode": "gdb",
+      "preLaunchTask": "Build",
+      "miDebuggerPath": "/usr/bin/gdb",                 // path/to/gdb (Currently set to Linux default)
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
